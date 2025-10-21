@@ -1,5 +1,7 @@
 ###########################
 # Exercise 1: Split basics
+# STRING.join()
+# STRING.split()
 ###########################
 sentence_1 = "Python makes string manipulation fun and powerful"
 
