@@ -38,6 +38,7 @@ my_string = "hello world i like ice cream"
 
 
 
+
 # my_string[N:M] (NOT INCLUDING M!)
 
 #print(my_string[0:5])
@@ -120,9 +121,9 @@ my_string = "hello world i like ice cream"
 
 #### Lists ####
 
-
-my_list = ["hello", "ariel", 8, 12, "banana", "israel"]
-#            0         1     2
+# INDEXING
+#my_list = ["hello", "ariel", 8, 12, "banana", "israel"]
+#           0         1     2
 
 #print(my_list)
 
@@ -140,7 +141,68 @@ my_list = ["hello", "ariel", 8, 12, "banana", "israel"]
 # print(word[::-1])
 
 
-print(my_list[0][::-1])
+# print(my_list[0][::-1])
+
+
+
+
+
+
+# Methods
+my_list = ["hello", "ariel", 8, 12, "banana", "israel"]
+
+
+# the function len()
+#list_length = len(my_list)
+
+#print(list_length)
+
+###
+
+#my_list.append("shahar")
+
+#print(my_list)
+
+#my_list.append(7)
+
+#print(my_list)
+
+#my_list.append(["hello", "shahar"])
+
+#print(my_list)
+
+
+
+#my_list.append("shahar")
+
+#print(my_list)
+
+
+#new_list = [my_list[0], my_list[-1], my_list[1:6]]
+
+
+#print(new_list)
+
+
+
+
+
+# LISTS ARE MUTABLE
+
+
+example = [1, 2, 3]
+print(example)
+
+
+example.append(4)
+
+print(example)
+
+
+example[1] = "banana"
+
+
+print(example)
 
 
 
@@ -148,12 +210,29 @@ print(my_list[0][::-1])
 
 
 
+# Create a new empty list and append to it at least three names of students.
+#[]
+
+
+
+#[NAME1, NAME2, NAME3]
+
+
+new_list.extend([])
 
 
 
 
+new_list.extend()
 
+new_list.extend("banana")
 
+new_list.append("b")
+new_list.append("a")
+new_list.append("n")
+new_list.append("a")
+new_list.append("n")
+new_list.append("a")
 
 
 
