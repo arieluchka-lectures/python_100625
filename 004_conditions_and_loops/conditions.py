@@ -42,31 +42,48 @@
 #     print("The student " + list_of_all_students[student_index] + " is NOT in the zoom!")
 
 
+#t a list!")
 
-# Exercise 3: Checking list length
-my_list = 90.12
-# Write an if statement that prints "List has more than 3 items" if the length of my_list is greater than 3
-# if it isnt greater than 3, print "The list doesnt have more than 3 items"
-
+# # Exercise 3: Checking list length
+# my_list = [1, 2, 3, 4]
+# # Write an if statement that prints "List has more than 3 items" if the length of my_list is greater than 3
+# # if it isnt greater than 3, print "The list doesnt have more than 3 items"
 #
-# list()
+# #
+# # list()
+# #
+# # int()
+# #
+# # input()
 #
-# int()
+# # type()
 #
-# input()
+#
+# if type(my_list) == list:
+#     print("This is a list!")
+#     if len(my_list) > 3: # will check len only if this is actually a list
+#         print("List has more than 3 items")
+#     else:
+#         print("The list doesnt have more than 3 items")
+#
+# else:
+#     print("This is no
 
-# type()
 
 
-if type(my_list) == list:
-    print("This is a list!")
-    if len(my_list) > 3: # will check len only if this is actually a list
-        print("List has more than 3 items")
-    else:
-        print("The list doesnt have more than 3 items")
 
-else:
-    print("This is not a list!")
+
+# Exercise 4: if chain
+score = 85
+# - Print "Excellent" if score is 90 or above
+# - Print "Good" if score is between 70 and 89
+# - Print "Needs improvement" if score is below 70
+
+
+
+
+
+
 
 
 
