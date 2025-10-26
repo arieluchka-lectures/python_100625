@@ -92,3 +92,37 @@ price = 150
 # Write an if-else statement:
 # - If price is more than 100, calculate 10% discount and print the new price
 # - Otherwise, print the original price
+
+# Exercise 16: Grade calculator
+grade = 78
+# Write a conditional statement chain that prints:
+# - "A" if grade is 90-100
+# - "B" if grade is 80-89
+# - "C" if grade is 70-79
+# - "D" if grade is 60-69
+# - "F" if grade is below 60
+
+
+# Exercise 17: String starts with
+word = "Python"
+# Write an if statement that prints "Starts with P" if word starts with the letter "P" (capital "p")
+
+
+# Exercise 18: List contains specific number
+numbers = [5, 10, 15, 20, 25]
+# Write an if-else statement that prints "Found 15" if 15 is in numbers, otherwise print "Not found"
+
+
+# Exercise 19: Multiple conditions combined
+student_age = 16
+has_permission = True
+# Write an if statement that prints "Can attend" if student_age is *at least* 16 AND has_permission is True
+
+
+# BONUS Exercise 20: Complex conditions
+height = 165
+weight = 70
+# Write an if-elif-else statement:
+# - Print "Tall and heavy" if height > 180 AND weight > 80
+# - Print "Average" if height is between 160-180 OR weight is between 60-80
+# - Print "Other category" for all other cases
