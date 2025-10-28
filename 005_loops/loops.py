@@ -188,5 +188,23 @@ else:
 
 
 
+num = 6
+for i in range(1, num):
+    num % i != 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

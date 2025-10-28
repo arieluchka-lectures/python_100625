@@ -1,4 +1,6 @@
 # Exercise 1: Comparing strings
+from traceback import print_tb
+
 favorite_color = "blue"
 # Write an if statement that prints "We have the same favorite color!" if favorite_color equals "blue"
 
@@ -40,13 +42,19 @@ day = "Saturday"
 
 
 # Exercise 7: Checking if item in list
-fruits = ["apple", "banana", "orange"]
-# Write an if statement that prints "We have bananas!" if "banana" is in the fruits list
+fruits = ["apple", "banana", "orange", 1, 2, 5]
+# Write an if statement that prints "We have 2!" if 2 is in the fruits list
+#
+# if 2 in fruits:
 
 
 # Exercise 8: String contains substring
-sentence = "I love programming in Python"
+sentence = "I love programming in PytHoN"
 # Write an if statement that prints "Python mentioned!" if the word "Python" is in the sentence
+
+if "python" in sentence.lower():
+    print("Python mentioned!")
+
 
 # Exercise 9: Negative numbers
 number = -5
@@ -55,7 +63,46 @@ number = -5
 
 # Exercise 10: Even or odd
 num = 17
-# Write an if-else statement that prints "Even" if num is divisible by 2 (use % operator), otherwise print "Odd"
+# Write an if-else statement that prints "Even" if num is divisible by 2 (use % operator),
+# otherwise print "Odd"
+
+# + - / * **
+
+# //
+# %
+
+
+# 1)
+# if num % 2 > 0:
+#     print("Odd")
+# else:
+#     print("Even")
+#
+#
+# # 2)
+# if num % 2 > 0:
+#     print("Odd")
+# elif num % 2 == 0:
+#     print("Even")
+
+# 3)
+# if num % 2 != 0:
+#     print("Odd")
+# ...
+
+# 4)
+# if num % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# 5)
+
+if num % 2:
+    print("Odd")
+else:
+    print("Even")
+
 
 
 # Exercise 11: String length check

@@ -136,17 +136,17 @@ from idna.idnadata import scripts
 # else:
 #     print("Failed")
 
-score = 85
+# score = 85
 
 # 4.2)
-if score >= 90:
-    print("Excellent")
-elif score >= 55:
-    print("...")
-elif score >= 70:
-    print("Good")
-else:
-    print("Failed")
+# if score >= 90:
+#     print("Excellent")
+# elif score >= 55:
+#     print("...")
+# elif score >= 70:
+#     print("Good")
+# else:
+#     print("Failed")
 
 # when we have an if block (if/elif/else), only one block will execute
 
@@ -165,24 +165,24 @@ else:
 
 
 # first CONDITION block
-if 1 > 0:
-    print("...")
-else:
-    print("some other stuff")
+# if 1 > 0:
+    # print("...")
+# else:
+#     print("some other stuff")
 
 # second CONDITION block
-if 5 > 12:
-    print("...")
+# if 5 > 12:
+#     print("...")
 
 # third CONDITION block
-if 5>12:
-    ...
-elif 10>50:
-    ...
-elif 5>5:
-    ...
-else:
-    ...
+# if 5>12:
+#     ...
+# elif 10>50:
+#     ...
+# elif 5>5:
+#     ...
+# else:
+#     ...
 
 
 
@@ -191,7 +191,28 @@ else:
 
 
 
+#####
+# raz question
+fruits = [
+    "apple something",
+    "banana",
+    "orange",
+    1,
+    2,
+    5,
+    ["hello", "ariel"],
+    3,
+    10
+]
 
+
+
+
+if "apple" in fruits:
+    print("apple in fruits?!")
+
+if "ariel" in fruits:
+    print("ariel in fruits?!")
 
 
 
