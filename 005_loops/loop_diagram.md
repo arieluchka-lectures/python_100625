@@ -1,3 +1,6 @@
+
+### for loops
+
 ```mermaid
 
 flowchart TD
@@ -21,6 +24,8 @@ flowchart TD
 
 <br>
 
+### While loops
+
 ```mermaid
 
 flowchart TD
@@ -32,3 +37,5 @@ flowchart TD
   F --> G["End"]
 
 ```
+
+
