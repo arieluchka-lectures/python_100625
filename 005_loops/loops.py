@@ -77,53 +77,108 @@ from urllib3 import proxy_from_url
 #     print(new_char)
 
 
-AVAILABLE_USERNAMES = ["arieluchka", "Ido", "Maryam"]
-AVAILABLE_PASSWORDS = ["ariel111", "ido_the_king_1980", "01234"]
+### The user log in code moved to 990_mini_projects
 
 
-# "username=password"
-# "arieluchka=ariel111"
+
+### range()
+
+# range()
+
+
+# # test = range(6)
+# # print(test)
 #
-# usernames_passwords_combined = ["arieluchka=ariel111", "Ido=ido=the=king_1980", "Maryam=01234"]
+# # # [0, 1, 2, 3, 4, 5]
+# for i in range(6):
+#     # print(i)
+#     print("בוקר טוב יצחק")
 #
-# res = usernames_passwords_combined[0].split("=")
+# range(5, 109)
+#
+# # i=0
+# # while i < 6:
+# #     i += 1
+# #     print("בוקר טוב יצחק")
 
-# OBJ1 = ["arieluchka", "ariel111"]
-# OBJ2 = ["Ido", "ido_the_king_1980"]
-# OBJ3 = ["Maryam", "01234"]
+
+
+# count = 5
+# words_list = []
+#
+# while count > 0:
+#     user_input = input("Enter a random word: ")
+#
+#     if user_input == "stop":
+#         break
+#
+#     words_list.append(user_input)
+#     # count = count - 1
+#     count -= 1
 #
 #
-# USERNAMES_WITH_PASSWORDS = [OBJ1, OBJ2, OBJ3]
+# print("The words list is -> ",words_list)
+
+
+
+
+# for name in ["arieluchka", "Ido", "Maryam", "regev"]:
+#     print(name)
+#     if name == "Ido":
+#         print("bye bye ido")
+#         break
+
+##### continue
+
+# numbers = 10
+
+# while numbers > 0:
+# for numbers in [1,2,3,4,5,6,7,8]:
+#     numbers -= 1
+#
+#     if numbers % 2 == 0:
+#         continue
+#
+#     print(numbers)
 #
 
-USERNAMES_WITH_PASSWORDS = [
-    ["arieluchka", "ariel111"],
-    ["Ido", "ido_the_king_1980"],
-    ["Maryam", "01234"],
-]
-
-print("Welcome to the computer")
-# while until correct username and password
-
-username_from_input = input("enter your username: ")
-# username_exists = False
 
 
-for X in USERNAMES_WITH_PASSWORDS:
-    ...
+# break = will exit the loop לאלתר
 
-if username_from_input in AVAILABLE_USERNAMES:
-    print("username exists")
-    password_from_input = input("enter your password: ")
-    # username_exists = True
+# continue = will return us to the next interation of the loop
 
-    if password_from_input in AVAILABLE_PASSWORDS:
-        print("password exists")
-    else:
-        print("password is incorrect.")
+# pass
 
+password = "Ariel123!"
+correct_password = "Ariel123!"
+
+if password == correct_password:
+    pass
 else:
-    print("username is incorrect. try again!")
+    print("Password is wrong!")
+
+
+
+
+
+
+
+
+# summary
+
+# for loop -> will go over an iterable (str|list/array)
+
+# while loop -> checks a condition
+
+
+# BREAK (will exit loop)
+# CONTINUE (will skip current iteration and jump to next one)
+# PASS (just chillin)
+
+
+# else (maybe later)
+
 
 
 
