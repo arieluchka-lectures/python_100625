@@ -86,6 +86,9 @@ def calculate_triangle_area(height: int, base: int): # height and base are param
 def calculate_bmi_of_person(weight, height):
     ...
 
+
+
+
 # calculate_triangle_area(5, 10)
 # # calculate_triangle_area(6, 12)
 # # calculate_triangle_area(11, 11)
@@ -96,9 +99,6 @@ def calculate_bmi_of_person(weight, height):
 greet(900, "ariel")
 greet(age=900, name="ariel")
 # greet(name="ariel", 900) # WILL NOT WORK
-
-
-
 
 
 
