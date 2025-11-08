@@ -156,24 +156,131 @@
 
 
 
-banana = print("hello")
-print(banana)
+# banana = print("hello")
+# print(banana)
+#
+#
+# new_list = [1, 2, 3, 4]
+#
+# print(new_list)
+# res = new_list.append(5)
+# print(new_list)
+#
+# print(res)
+#
+#
+#
+# str1 = "hello"
+#
+# res = str1.upper()
+# print(res)
 
 
-new_list = [1, 2, 3, 4]
 
+
+
+
+# NAMESPACES/SCOPES
+
+# 1)
+# def greet():
+#     name = "ariel"
+#     print(f"hello {name}!")
+#
+# greet()
+# print(name)
+
+
+# 2)
+
+# name = "Yoav"
+#
+# def greet():
+#     name = "ariel"
+#     print(f"hello {name}!")
+#
+# greet()
+# print(name)
+
+
+
+# # 3)
+# name = "Yoav"
+#
+# def greet():
+#     global name
+#     name = "ariel"
+#     print(f"hello {name}!")
+#
+# greet()
+# print(name)
+
+
+# id()
+#
+# def display_all_names_from_list(
+#     list_of_names: list
+# ):
+#     while len(list_of_names) > 0:
+#         name = list_of_names.pop()
+#         print(name)
+
+# mutable
+my_list = ["nir", "ariel", "regev", "sergey"]
+another_list = ["nir", "ariel", "regev", "sergey"]
+
+
+# print(my_list)
+# print(id(my_list))
+# my_list.append("shalom")
+# print(my_list)
+# print(id(my_list))
+
+
+
+
+new_list = my_list.copy()
+print(my_list)
 print(new_list)
-res = new_list.append(5)
+
+my_list.pop()
+my_list.pop()
+my_list.pop()
+
+print(my_list)
 print(new_list)
 
-print(res)
 
 
 
-str1 = "hello"
+# print(id(another_list))
 
-res = str1.upper()
-print(res)
+# name1 = "ariel"
+# name2 = "ariel"
+# name3 = name1
+# name1 = "banana"
+#
+# print(id(name1))
+# print(id(name2))
+# print(id(name3))
+
+# name1.upper()
+# name2.upper()
+#
+# print(id(name1))
+# print(id(name2))
+
+
+# display_all_names_from_list(my_list)
+
+# print(my_list[1].upper())
+
+
+
+
+
+
+# mutable+immutable objects
 
 
 
