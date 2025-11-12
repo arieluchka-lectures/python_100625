@@ -144,7 +144,7 @@ def search():
     <h2>Search Results</h2>
     <p>You searched for: <strong>{query}</strong></p>
     <p>Page: {page}</p>
-    <p>Try: <a href="/search?q=flask&page=2">/search?q=flask&page=2</a></p>
+    <p>Try: <a href="/search?q=flask_example&page=2">/search?q=flask_example&page=2</a></p>
     <a href="/">Back to Home</a>
     '''
 

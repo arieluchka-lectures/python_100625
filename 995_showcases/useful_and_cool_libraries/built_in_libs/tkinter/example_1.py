@@ -15,3 +15,6 @@ button.pack(pady=10)
 
 # Start the GUI event loop
 root.mainloop()
+
+
+# GUI - Graphical User Interface
