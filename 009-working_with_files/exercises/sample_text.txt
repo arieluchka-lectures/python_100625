@@ -1,0 +1,5 @@
+Hello World
+Python is awesome
+File handling is easy
+Practice makes perfect
+Keep coding!
